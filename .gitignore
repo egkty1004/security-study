@@ -1,0 +1,22 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets / local environment
+.env
+.env.*
+*.key
+*.pem
+
+# Packet captures may contain sensitive traffic.
+# Add intentionally only after reviewing contents.
+*.pcap
+*.pcapng
